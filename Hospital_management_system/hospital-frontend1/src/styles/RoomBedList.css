@@ -1,0 +1,44 @@
+.room-bed-container {
+  padding: 20px;
+}
+
+.room-bed-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.room-bed-table th,
+.room-bed-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.room-bed-table th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.free {
+  color: green;
+  font-weight: bold;
+}
+
+.occupied {
+  color: red;
+  font-weight: bold;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}

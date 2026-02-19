@@ -1,0 +1,112 @@
+.doctor-container {
+  padding: 30px;
+}
+
+.doctor-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.doctor-table th,
+.doctor-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.doctor-table th {
+  background-color: #3498db;
+  color: white;
+}
+
+.doctor-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.edit-btn {
+  background: #27ae60;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard-btn1 {
+  width: 240px;
+  height: 50px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #3498db, #1abc9c);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.dashboard-btn1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard-btn1:active {
+  transform: scale(0.97);
+}
+/* Center the "Main Menu" button at bottom */
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Common action button container */
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* EDIT button */
+.edit-btn {
+  background-color: #1976d2;   /* Blue */
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.edit-btn:hover {
+  background-color: #125ea8;
+  transform: scale(1.05);
+}
+
+/* DELETE button */
+.delete-btn {
+  background-color: #d32f2f;   /* Red */
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.delete-btn:hover {
+  background-color: #b71c1c;
+  transform: scale(1.05);
+}
+

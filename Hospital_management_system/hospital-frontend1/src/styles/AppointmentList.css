@@ -1,0 +1,51 @@
+.appointment-container { padding: 30px; }
+.appointment-table { width: 100%; border-collapse: collapse; }
+.appointment-table th, .appointment-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.appointment-table th {
+  background-color: #3498db;
+  color: white;
+}
+.appointment-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-btn1 {
+  width: 280px;
+  height: 60px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #3498db, #1abc9c);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.dashboard-btn1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard-btn1:active {
+  transform: scale(0.97);
+}
+/* Center the "Main Menu" button at bottom */
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

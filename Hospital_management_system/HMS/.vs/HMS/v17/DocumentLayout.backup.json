@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|d:\\cdac_project hms\\hospital_management_system\\hms\\hms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|solutionrelative:hms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|d:\\cdac_project hms\\hospital_management_system\\hms\\hms\\hms.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|solutionrelative:hms\\hms.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|d:\\cdac_project hms\\hospital_management_system\\hms\\hms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|solutionrelative:hms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|d:\\cdac_project hms\\hospital_management_system\\hms\\hms\\dtos\\prescriptiondtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|solutionrelative:hms\\dtos\\prescriptiondtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|d:\\cdac_project hms\\hospital_management_system\\hms\\hms\\models\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|solutionrelative:hms\\models\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|d:\\cdac_project hms\\hospital_management_system\\hms\\hms\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|solutionrelative:hms\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|d:\\cdac_project hms\\hospital_management_system\\hms\\hms\\controllers\\medicinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFFB4F8C-C5C0-4E8C-818D-153C9F4F608E}|HMS\\HMS.csproj|solutionrelative:hms\\controllers\\medicinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HMS.http",
+              "DocumentMoniker": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\HMS.http",
+              "RelativeDocumentMoniker": "HMS\\HMS.http",
+              "ToolTip": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\HMS.http",
+              "RelativeToolTip": "HMS\\HMS.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-06T03:03:36.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrescriptionDtos.cs",
+              "DocumentMoniker": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\DTOs\\PrescriptionDtos.cs",
+              "RelativeDocumentMoniker": "HMS\\DTOs\\PrescriptionDtos.cs",
+              "ToolTip": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\DTOs\\PrescriptionDtos.cs",
+              "RelativeToolTip": "HMS\\DTOs\\PrescriptionDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T04:20:25.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MedicinesController.cs",
+              "DocumentMoniker": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\Controllers\\MedicinesController.cs",
+              "RelativeDocumentMoniker": "HMS\\Controllers\\MedicinesController.cs",
+              "ToolTip": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\Controllers\\MedicinesController.cs",
+              "RelativeToolTip": "HMS\\Controllers\\MedicinesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T13:56:47.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\Program.cs",
+              "RelativeDocumentMoniker": "HMS\\Program.cs",
+              "ToolTip": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\Program.cs",
+              "RelativeToolTip": "HMS\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T13:53:54.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "HMS\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "HMS\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T13:53:31.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Medicine.cs",
+              "DocumentMoniker": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\Models\\Medicine.cs",
+              "RelativeDocumentMoniker": "HMS\\Models\\Medicine.cs",
+              "ToolTip": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\Models\\Medicine.cs",
+              "RelativeToolTip": "HMS\\Models\\Medicine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T13:52:22.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\appsettings.json",
+              "RelativeDocumentMoniker": "HMS\\appsettings.json",
+              "ToolTip": "D:\\Cdac_Project HMS\\Hospital_management_system\\HMS\\HMS\\appsettings.json*",
+              "RelativeToolTip": "HMS\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-29T13:51:15.041Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

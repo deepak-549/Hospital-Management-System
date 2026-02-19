@@ -1,0 +1,415 @@
+/* ===================== Prescriptions Modern UI ===================== */
+
+.rx-page {
+  min-height: 100vh;
+  padding: 22px 0;
+  background: linear-gradient(135deg, #f7f8ff, #f7fbff);
+  font-family: Arial, sans-serif;
+}
+
+.rx-shell {
+  width: 92%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ================= Header ================= */
+.rx-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  padding: 18px 18px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  margin-bottom: 16px;
+  position: sticky;
+  top: 12px;
+  z-index: 5;
+  border: 1px solid #f0f0f0;
+}
+
+.rx-title {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 800;
+  color: #111827;
+}
+
+.rx-subtitle {
+  margin: 6px 0 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.rx-header-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.rx-badge {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #eef2ff;
+  border: 1px solid #dbeafe;
+  color: #3730a3;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.rx-badge-ok {
+  background: #ecfdf5;
+  border: 1px solid #bbf7d0;
+  color: #065f46;
+}
+
+/* ================= Card ================= */
+.rx-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f0f0f0;
+  padding: 34px;
+  margin-bottom: 16px;
+}
+
+.rx-card-head h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 800;
+  color: #111827;
+  border-radius: 20px;
+  padding: 12px;
+  background: linear-gradient(556deg, #3498db, #1abc9c);
+}
+
+.rx-card-head p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: #000000;
+}
+
+/* ================= Form ================= */
+.rx-form {
+  margin-top: 14px;
+}
+
+.rx-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1.2fr 1.2fr;
+  gap: 10px;
+}
+
+.rx-field label {
+  display: block;
+  font-size: 12px;
+  font-weight: 800;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+.rx-field input,
+.rx-field select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  outline: none;
+  background: #fff;
+  font-size: 14px;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+}
+
+.rx-field input:focus,
+.rx-field select:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.15);
+}
+
+.rx-field input:hover,
+.rx-field select:hover {
+  border-color: #c7c7ff;
+}
+
+/* ================= Panel (Medicines) ================= */
+.rx-panel {
+  margin-top: 16px;
+  border-radius: 16px;
+  border: 1px solid #eef2ff;
+  background: linear-gradient(180deg, #fafbff, #ffffff);
+  padding: 14px;
+}
+
+.rx-panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.rx-panel-head h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 900;
+  color: #111827;
+}
+
+.rx-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.rx-item {
+  background: #ffffff;
+  border: 1px solid #e9e9ff;
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
+  transition: transform 0.08s ease, box-shadow 0.2s ease;
+}
+
+.rx-item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.06);
+}
+
+.rx-item-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.6fr 0.3fr 1fr;
+  gap: 12px;
+}
+
+.rx-days input {
+  text-align: center;
+}
+
+/* item actions */
+.rx-item-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+/* ================= Buttons ================= */
+.rx-btn {
+  border: none;
+  padding: 10px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 14px;
+  transition: transform 0.08s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rx-btn:active {
+  transform: scale(0.99);
+}
+
+.rx-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.rx-btn-primary {
+  background: linear-gradient(135deg, #3498db, #1abc9c);
+  color: #fff;
+  box-shadow: 0 10px 18px rgba(79, 70, 229, 0.22);
+}
+
+.rx-btn-primary:hover {
+  box-shadow: 0 14px 24px rgba(79, 70, 229, 0.28);
+}
+
+.rx-btn-dark {
+  background: #111827;
+  color: #fff;
+}
+
+.rx-btn-ghost {
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.rx-btn-ok {
+  background: #16a34a;
+  color: #fff;
+}
+
+.rx-btn-danger {
+  background: #dc2626;
+  color: #fff;
+}
+
+.rx-btn-small {
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+/* bottom actions */
+.rx-form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+/* ================= List header + search ================= */
+.rx-list-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.rx-list-head h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 900;
+  color: #111827;
+}
+
+.rx-list-head p {
+  margin: 6px 0 0;
+  color: #000000;
+  font-size: 13px;
+}
+
+.rx-search input {
+  width: 280px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  outline: none;
+  font-size: 14px;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.rx-search input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.15);
+}
+
+/* ================= Table ================= */
+.rx-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 14px;
+  border: 1px solid #eef2ff;
+}
+
+.rx-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px;
+  background: #fff;
+}
+
+.rx-table thead th {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(556deg, #3498db, #1abc9c);
+  color: #fff;
+  text-align: left;
+  padding: 12px;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.rx-table tbody td {
+  border-top: 1px solid #eef2ff;
+  padding: 12px;
+  font-size: 14px;
+  color: #111827;
+  vertical-align: top;
+}
+
+.rx-table tbody tr:hover {
+  background: #fafbff;
+}
+
+.rx-id {
+  font-weight: 900;
+  color: #111827;
+}
+
+.rx-empty {
+  text-align: center;
+  color: #6b7280;
+  padding: 18px;
+}
+
+/* medicine chips */
+.rx-med-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rx-pill {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  border: 1px dashed #dbeafe;
+  background: #f8fbff;
+  padding: 8px 10px;
+  border-radius: 12px;
+}
+
+.rx-pill b {
+  color: #111827;
+}
+
+.rx-pill span {
+  font-size: 13px;
+  color: #4b5563;
+}
+
+/* row actions */
+.rx-row-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* footer note */
+.rx-footer-note {
+  text-align: center;
+  margin-top: 6px;
+  color: #6b7280;
+  font-size: 12px;
+}
+
+/* ================= Responsive ================= */
+@media (max-width: 900px) {
+  .rx-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rx-item-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rx-search input {
+    width: 100%;
+  }
+
+  .rx-list-head {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .rx-header {
+    position: relative;
+    top: auto;
+  }
+
+  .rx-form-actions {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,97 @@
+.patient-container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+
+.dashboard-back-btn {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dashboard-back-btn:hover {
+  background-color: #0b77be;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Patient Table */
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patient-table th,
+.patient-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.patient-table th {
+  background-color: #3498db;
+  color: white;
+}
+
+.patient-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.edit-btn {
+  background: #27ae60;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard-btn1 {
+  width: 220px;
+  height: 40px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #3498db, #1abc9c);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.dashboard-btn1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard-btn1:active {
+  transform: scale(0.97);
+}
+/* Center the "Main Menu" button at bottom */
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+

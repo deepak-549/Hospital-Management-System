@@ -1,0 +1,104 @@
+.add-doctor-container {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgb(155, 155, 155);
+  font-family: Arial, sans-serif;
+}
+
+.add-doctor-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.add-doctor-form input,
+.add-doctor-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.add-doctor-form input:focus,
+.add-doctor-form select:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.add-doctor-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #3498db;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-doctor-form button:hover {
+  background-color: #3498db;
+}
+.patient-container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+
+.dashboard-back-btn {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dashboard-back-btn:hover {
+  background-color: #0b77be;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-btn1 {
+  width: 200px;
+  height: 60px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #3498db, #1abc9c);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.dashboard-btn1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard-btn1:active {
+  transform: scale(0.97);
+}
+/* Center the "Main Menu" button at bottom */
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

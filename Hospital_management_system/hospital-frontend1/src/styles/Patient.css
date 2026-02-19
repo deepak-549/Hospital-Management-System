@@ -1,0 +1,65 @@
+/* Container for main dashboard buttons */
+.dashboard-container {
+  min-height: calc(100vh - 40vh); /* leave space for fixed navbar if you have one */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background: #f4f6f9;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* Dashboard buttons style */
+.dashboard-btn {
+  width: 220px;
+  height: 120px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #3498db, #1abc9c);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.dashboard-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard-btn:active {
+  transform: scale(0.97);
+}
+
+
+.dashboard-btn1 {
+  width: 200px;
+  height: 60px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #3498db, #1abc9c);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.dashboard-btn1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard-btn1:active {
+  transform: scale(0.97);
+}
+/* Center the "Main Menu" button at bottom */
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
